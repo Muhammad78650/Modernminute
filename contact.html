@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | ModernMinutes</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/three.min.js"></script>
+</head>
+<body>
+    <div id="3d-scene">
+        <canvas id="webgl-canvas"></canvas>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="content">
+        <h1>Contact Us</h1>
+        <p>Have a question or want to get in touch? Please fill out the form below:</p>
+
+        <form id="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" placeholder="Your Name" required><br>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" placeholder="Your Email" required><br>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" placeholder="Your Message" required></textarea><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
